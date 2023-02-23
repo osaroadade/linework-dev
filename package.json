@@ -1,0 +1,24 @@
+{
+    "name": "linework",
+    "version": "1.0.0",
+    "description": "��#\u0000L\u0000i\u0000n\u0000e\u0000w\u0000o\u0000r\u0000k\u0000 \u0000-\u0000d\u0000e\u0000v\u0000\r\u0000 \u0000",
+    "main": "index.js",
+    "scripts": {
+        "start": "eleventy --serve",
+        "build": "eleventy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/osaroadade/linework-dev.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/osaroadade/linework-dev/issues"
+    },
+    "homepage": "https://github.com/osaroadade/linework-dev#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^2.0.0"
+    }
+}
