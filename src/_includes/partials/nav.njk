@@ -1,0 +1,44 @@
+<header role="banner" class="nav">
+    <div class="wrapper">
+        <div class="nav-group d-flex">
+            <div class="nav-title d-flex">
+                <a href="/" class="logo">
+                    <img class="logo-wordmark" src="/images/logo-wordmark.png" alt="Image of Linework's logo and work mark, featuring the word 'Linework' in bold capital letters with the the company
+                            motto 'Join our freedom' written directly below it. The entire image is colored white on a transparent background.">
+                    <img class="logo d-none" src="/images/logo.png" alt="Image of Linework's logo. The entire image is colored white on a transparent background.">
+                </a>
+                <button class="nav-button mobile" type="button">
+                    <i class="fa fa-close"></i>
+                </button>
+            </div>
+            <nav class="nav-links" aria-label="Primary">
+                <ul class="d-flex">
+                    {% for item in nav.items %}
+                        <li class="nav-link{% if item.special %} desktop{% endif %}">
+                            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }} {% if item.special %} title="{{ item.text }}" target="_blank" data-state="{{ item.special }}" {% endif %} class="nav-link__item{% if item.special %} d-block{% endif %}">{{ item.text | safe }}</a>
+                            {% if item.megamenuItems %}
+                                <div class="mega-menu-container d-none">
+                                    <ul>
+                                        {% for megaMenuItem in item.megamenuItems %}
+                                            <li class="mega-menu__group">
+                                                <img src="{{ megaMenuItem.image }}" alt="{{ megaMenuItem.alt }}" class="mega-menu__icon">
+                                                <h4 class="desktop">{{ megaMenuItem.text }}</h4>
+                                                <a href="{{ megaMenuItem.link }}" class="mega-menu__link">{{ megaMenuItem.text }}</a>
+                                                <p class="mega-menu__description desktop">{{ megaMenuItem.description }}</p>
+                                                <a href="{{ megaMenuItem.link }}" class="mega-menu__action desktop">{{ megaMenuItem.cta }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            <button class="nav-button mobile" type="button">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</header>
+</li>
