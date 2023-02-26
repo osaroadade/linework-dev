@@ -1,0 +1,64 @@
+{
+    "social": [
+        {
+            "link": "https://www.twitter.com/lineworkfintech",
+            "icon": "twitter",
+            "text": "Twitter"
+        },
+        {
+            "link": "ttps://www.linkedin.com/company/lineworkfintech",
+            "icon": "linkedin",
+            "text": "LinkedIn"
+        },
+        {
+            "link": "https://www.instagram.com/linework_official/",
+            "icon": "instagram",
+            "text": "Instagram"
+        },
+        {
+            "link": "https://t.me/LineworkCommunity",
+            "icon": "telegram",
+            "text": "Telegram"
+        },
+        {
+            "link": "https://www.youtube.com/@linework6356",
+            "icon": "youtube",
+            "text": "YouTube"
+        },
+        {
+            "link": "https://discord.com/invite/9FhCdMu2qe",
+            "icon": "discord",
+            "text": "Discord"
+        }
+    ],
+    "links": [
+        {
+            "text": "Contact",
+            "link": "mailto:info@linework.online"
+        },
+        {
+            "text": "Cookie Policy",
+            "link": "https://app.termly.io/document/cookie-policy/f36110ac-e4eb-465f-9300-1806700716fe"
+        },
+        {
+            "text": "EULA",
+            "link": "https://app.termly.io/document/eula/6f6652fa-5f33-40e2-bee0-8bf1a2ebd521"
+        },
+        {
+            "text": "Privacy Policy",
+            "link": "/privacy-policy/"
+        },
+        {
+            "text": "Legal Disclaimer",
+            "link": "/legal/"
+        },
+        {
+            "text": "Terms & Condition",
+            "link": "/terms/"
+        },
+        {
+            "text": "Careers",
+            "link": "https://www.linkedin.com/company/lineworkfintech/jobs/"
+        }
+    ]
+}

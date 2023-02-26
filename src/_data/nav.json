@@ -1,0 +1,79 @@
+{
+    "items": [
+        {
+            "text": "Home",
+            "url": "/"
+        },
+        {
+            "text": "About",
+            "url": "/about/"
+        },
+        {
+            "text": "Ecosystem <i class='fas fa-chevron-down'></i>",
+            "url": "javascript:void(0)",
+            "megamenuItems": [
+                {
+                    "image": "/images/mega-menu/app.png",
+                    "alt": "Description of images goes here.",
+                    "text": "App",
+                    "description": "Menus you create with WP mega menu are 100%",
+                    "cta": "Click Me",
+                    "link": "#"
+                },
+                {
+                    "image": "/images/mega-menu/app.png",
+                    "alt": "Description of images goes here.",
+                    "text": "App",
+                    "description": "Menus you create with WP mega menu are 100%",
+                    "cta": "Click Me",
+                    "link": "#"
+                },
+                {
+                    "image": "/images/mega-menu/app.png",
+                    "alt": "Description of images goes here.",
+                    "text": "App",
+                    "description": "Menus you create with WP mega menu are 100%",
+                    "cta": "Click Me",
+                    "link": "#"
+                },
+                {
+                    "image": "/images/mega-menu/app.png",
+                    "alt": "Description of images goes here.",
+                    "text": "App",
+                    "description": "Menus you create with WP mega menu are 100%",
+                    "cta": "Click Me",
+                    "link": "#"
+                },
+                {
+                    "image": "/images/mega-menu/app.png",
+                    "alt": "Description of images goes here.",
+                    "text": "App",
+                    "description": "Menus you create with WP mega menu are 100%",
+                    "cta": "Click Me",
+                    "link": "#"
+                },
+                {
+                    "image": "/images/mega-menu/app.png",
+                    "alt": "Description of images goes here.",
+                    "text": "App",
+                    "description": "Menus you create with WP mega menu are 100%",
+                    "cta": "Click Me",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "text": "Blog",
+            "url": "https://blog.linework.online/"
+        },
+        {
+            "text": "Careers",
+            "url": "https://blog.linework.online/careers/"
+        },
+        {
+            "text": "App",
+            "url": "https://app.linework.app/",
+            "special": "special"
+        }
+    ]
+}

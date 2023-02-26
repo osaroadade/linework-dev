@@ -1,0 +1,37 @@
+<button aria-label="Scroll to top of page" type="button" class="button margin-inline-auto p-absolute">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer-top d-flex">
+            <a href="/" class="logo">
+                <img class="logo-wordmark" src="/images/logo-wordmark.png" alt="Image of Linework's logo and work mark, featuring the word 'Linework' in bold capital letters with the the company motto 'Join our freedom' written directly below it. The entire image is colored white on a transparent background.">
+            </a>
+            <div class="d-flex footer-social-links gap-24">
+                <h5>Follow Us</h5>
+                <ul class="d-flex gap-16">
+                    {% for item in footer.social %}
+                        <li>
+                            <a href="{{ item.link }}" target="_blank" aria-label="{{ item.text }}" class="button-01">
+                                <i class="fab fa-{{ item.icon }}"></i>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="copyright d-flex">
+            <ul class="d-flex gap-24">
+                {% for item in footer.links %}
+                    <li>
+                        <a href="{{ item.link }}" target="_blank" aria-label="{{ item.text }}">
+                            {{ item.text }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <p>Linework Italia SRL ©
+                {% year %}</p>
+        </div>
+    </div>
+</footer>
