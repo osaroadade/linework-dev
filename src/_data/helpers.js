@@ -11,5 +11,11 @@ module.exports = {
         }
 
         return response;
+    },
+
+    addPageSpecificCode(url) {
+        const script = `<script src="${url}" defer></script>`
+
+        return script
     }
 }

@@ -14,61 +14,93 @@
             "megamenuItems": [
                 {
                     "image": "/images/mega-menu/app.png",
-                    "alt": "Description of images goes here.",
                     "text": "App",
-                    "description": "Menus you create with WP mega menu are 100%",
-                    "cta": "Click Me",
-                    "link": "#"
+                    "description": "A Decentralised APP that allows you to manage your digital asset in a simple one profile.",
+                    "cta": "Connect",
+                    "link": "https://play.google.com/store/apps/details?id=com.linework.app"
                 },
                 {
-                    "image": "/images/mega-menu/app.png",
-                    "alt": "Description of images goes here.",
-                    "text": "App",
-                    "description": "Menus you create with WP mega menu are 100%",
-                    "cta": "Click Me",
-                    "link": "#"
+                    "image": "/images/mega-menu/bitmart.png",
+                    "text": "Bitmart",
+                    "description": "For Quick trading and acquisition of the COIN.",
+                    "cta": "Trade",
+                    "link": "https://www.bitmart.com/trade/en?layout=basic&symbol=LWC_USDT"
                 },
                 {
-                    "image": "/images/mega-menu/app.png",
-                    "alt": "Description of images goes here.",
-                    "text": "App",
-                    "description": "Menus you create with WP mega menu are 100%",
-                    "cta": "Click Me",
-                    "link": "#"
+                    "image": "/images/mega-menu/bittrex.png",
+                    "text": "Bittrex",
+                    "description": "For Quick trading and acquisition of the COIN.",
+                    "cta": "Trade",
+                    "link": "https://global.bittrex.com/trade/lwc-usdt"
                 },
                 {
-                    "image": "/images/mega-menu/app.png",
-                    "alt": "Description of images goes here.",
-                    "text": "App",
-                    "description": "Menus you create with WP mega menu are 100%",
-                    "cta": "Click Me",
-                    "link": "#"
+                    "image": "/images/mega-menu/blog.png",
+                    "text": "Blog",
+                    "description": "For all information and Updates of Linework",
+                    "cta": "Know More",
+                    "link": "https://blog.linework.online/"
                 },
                 {
-                    "image": "/images/mega-menu/app.png",
-                    "alt": "Description of images goes here.",
-                    "text": "App",
-                    "description": "Menus you create with WP mega menu are 100%",
-                    "cta": "Click Me",
-                    "link": "#"
+                    "image": "/images/mega-menu/career.png",
+                    "text": "Careers",
+                    "description": "Join us on a mission to provide financial freedom",
+                    "cta": "Join Us",
+                    "link": "https://blog.linework.online/careers/"
                 },
                 {
-                    "image": "/images/mega-menu/app.png",
-                    "alt": "Description of images goes here.",
-                    "text": "App",
-                    "description": "Menus you create with WP mega menu are 100%",
-                    "cta": "Click Me",
-                    "link": "#"
+                    "image": "/images/mega-menu/corporate-vidoes.png",
+                    "text": "Corporate Videos",
+                    "description": "Learn more about Linework in our Corporate Videos",
+                    "cta": "Discover",
+                    "link": "https://blog.linework.online/corporate/"
+                },
+                {
+                    "image": "/images/mega-menu/nft.png",
+                    "text": "NFT",
+                    "description": "Dynamic Marketplace to Create,Sell, bid NFTs and also integrates other ERC-20 compatible Market places",
+                    "cta": "Create",
+                    "link": "https://linework.app/explore"
+                },
+                {
+                    "image": "/images/mega-menu/pitchdeck.png",
+                    "text": "Investor's Document",
+                    "description": "For in-depth analysis of Corporate Documents and Reports",
+                    "cta": "Know More",
+                    "link": "https://linework.online/yearly-report-2022-en.pdf"
+                },
+                {
+                    "image": "/images/mega-menu/sto.png",
+                    "text": "STO",
+                    "description": "Get to Know More information about tokenization of your assets",
+                    "cta": "Know More",
+                    "link": "https://linework.online/STO.pdf"
+                },
+                {
+                    "image": "/images/mega-menu/p&s.png",
+                    "text": "Products & Services",
+                    "description": "First Product & Services Decentralized E-Commerce that allows buying and selling of products and services using Crypto currency",
+                    "cta": "Know More",
+                    "link": "https://linework.online/yearly-report-2022-en.pdf"
+                },
+                {
+                    "image": "/images/mega-menu/tutorial-videos.png",
+                    "text": "Tutorial Videos",
+                    "description": "Learn the step by step instructions on how to use the Linework APP",
+                    "cta": "Learn More",
+                    "link": "https://blog.linework.online/category/how-to/"
+                },
+                {
+                    "image": "/images/mega-menu/whitepaper.png",
+                    "text": "Whitepaper",
+                    "description": "For more Insights of all the features of Linework",
+                    "cta": "Know More",
+                    "link": "https://linework.online/whitepaper-en.pdf"
                 }
             ]
         },
         {
             "text": "Blog",
             "url": "https://blog.linework.online/"
-        },
-        {
-            "text": "Careers",
-            "url": "https://blog.linework.online/careers/"
         },
         {
             "text": "App",
