@@ -1,0 +1,32 @@
+{% for content in home.contents %}
+    <section id="{{ content.id }}" class="home-content" data-counter="{{ content.counter }}">
+        <div class="d-grid wrapper container narrow">
+            <div class="content">
+                <h6 class="eyebrow">{{ content.eyebrow }}</h6>
+                <h2>{{ content.heading }}</h2>
+                {% if content.aboutContent %}
+                    {% for contentItem in content.aboutContent %}
+                        <h6 class="eyebrow">{{ contentItem.eyebrow }}</h6>
+                        <p>{{ contentItem.desc }}</p>
+                    {% endfor %}
+                {% elif content.appShowcase %}
+                    <ul class="d-grid">
+                        {% for contentItem in content.appShowcase %}
+                            <li class="d-flex"><i class="fas fa-badge-check"></i> {{ contentItem }}</li>
+                        {% endfor %}
+                    </ul>
+                {% elif content.nftContent %}
+                    {% for contentItem in content.nftContent %}
+                        <p>{{ contentItem }}</p>
+                    {% endfor %}
+                {% else %}
+                    <p>{{ content.desc }}</p>
+                {% endif %}
+                <a href="{{ content.url }}" class="button-primary">{{ content.link }}</a>
+            </div>
+            <div class="image">
+                <img src="{{ content.image }}" alt="">
+            </div>
+        </div>
+    </section>
+{% endfor %}

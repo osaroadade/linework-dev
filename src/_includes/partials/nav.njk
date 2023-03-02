@@ -1,6 +1,6 @@
-<header role="banner" class="nav">
+<header role="banner" class="nav p-fixed inset-0">
     <div class="wrapper">
-        <div class="nav-group d-flex">
+        <div class="nav-group d-flex p-relative">
             <div class="nav-title d-flex">
                 <a href="/" class="logo">
                     <img class="logo-wordmark" src="/images/logo-wordmark.png" alt="Image of Linework's logo and work mark, featuring the word 'Linework' in bold capital letters with the the company
@@ -15,17 +15,17 @@
                 <ul class="d-flex">
                     {% for item in nav.items %}
                         <li class="nav-link{% if item.special %} desktop{% endif %}">
-                            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }} {% if item.special %} title="{{ item.text }}" target="_blank" data-state="{{ item.special }}" {% endif %} class="nav-link__item{% if item.special %} d-block{% endif %}">{{ item.text | safe }}</a>
+                            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }} {% if item.special %} title="{{ item.text }}" target="_blank" data-state="{{ item.special }}" {% endif %} class="nav-link__item{% if item.special %} d-block button-primary{% endif %}" {% if item.megamenuItems %} id="megaMenu" {% endif %}>{{ item.text | safe }}</a>
                             {% if item.megamenuItems %}
-                                <div class="mega-menu-container d-none">
-                                    <ul>
+                                <div class="megamenu-container p-absolute d-none">
+                                    <ul class="d-grid">
                                         {% for megaMenuItem in item.megamenuItems %}
-                                            <li class="mega-menu__group">
-                                                <img src="{{ megaMenuItem.image }}" alt="{{ megaMenuItem.alt }}" class="mega-menu__icon">
+                                            <li class="megamenu__group d-grid">
+                                                <img src="{{ megaMenuItem.image }}" alt="">
                                                 <h4 class="desktop">{{ megaMenuItem.text }}</h4>
-                                                <a href="{{ megaMenuItem.link }}" class="mega-menu__link">{{ megaMenuItem.text }}</a>
-                                                <p class="mega-menu__description desktop">{{ megaMenuItem.description }}</p>
-                                                <a href="{{ megaMenuItem.link }}" class="mega-menu__action desktop">{{ megaMenuItem.cta }}</a>
+                                                <a href="{{ megaMenuItem.link }}" class="megamenu__link mobile">{{ megaMenuItem.text }}</a>
+                                                <p class="desktop">{{ megaMenuItem.description }}</p>
+                                                <a href="{{ megaMenuItem.link }}" class="button-primary desktop">{{ megaMenuItem.cta }}</a>
                                             </li>
                                         {% endfor %}
                                     </ul>
