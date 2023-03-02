@@ -1,0 +1,34 @@
+{
+    "links": [
+        {
+            "name": "About",
+            "url": "#about",
+            "counter": "0"
+        },
+        {
+            "name": "Marketplace",
+            "url": "#marketplace",
+            "counter": "1"
+        },
+        {
+            "name": "NFT",
+            "url": "#nft",
+            "counter": "2"
+        },
+        {
+            "name": "LWC",
+            "url": "#lwc",
+            "counter": "3"
+        },
+        {
+            "name": "STO",
+            "url": "#sto",
+            "counter": "4"
+        },
+        {
+            "name": "NEWS",
+            "url": "#news",
+            "counter": "5"
+        }
+    ]
+}

@@ -1,2 +1,24 @@
 {% extends "layouts/base.njk" %}
-{% block content %}{% endblock %}}
+{% block content %}
+    <section class="hero p-relative">
+        <div class="wrapper">
+            <div class="hero-video--container p-absolute inset-0">
+                <video playsinline loop autoplay muted class="hero-video p-absolute inset-0" id="hero-video">
+                    {# Generated from JS #}
+                </video>
+            </div>
+            <div class="hero-content p-absolute">
+                <h1>Linework App</h1>
+                <p>The Universe on your fingertips, Connect with our all-in-one App.</p>
+                <div class="button-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.linework.app" target="blank">
+                    <img src="/images/google-play.png" alt="Download the Linework App from the Google Play Store"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="primary-content">
+        {% include "partials/side-nav.njk" %}
+        {% include "partials/home-content.njk" %}
+    </section>
+{% endblock %}

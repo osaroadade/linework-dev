@@ -1,0 +1,82 @@
+{
+    "contents": [
+        {
+            "heading": "About",
+            "eyebrow": "Who we are",
+            "aboutContent": [
+                {
+                    "eyebrow": "What we do",
+                    "desc": "Linework is a fintech company supporting its customers through state-of-the-art DeFi applications served by its 2 Business Units: Personal Services and Capital Solutions."
+                },
+                {
+                    "eyebrow": "Our purpose",
+                    "desc": "Enhancing people and organizations worldwide through fairer access to resources."
+                }
+            ],
+            "image": "/images/home-content/about.png",
+            "link": "Know more",
+            "url": "/about/",
+            "id": "about",
+            "counter": "0"
+        },
+        {
+            "heading": "Linework App",
+            "eyebrow": "All in one",
+            "appShowcase": [
+                "All Your Assets in One App",
+                "Receive and Transfer Funds",
+                "KYC Security",
+                "Prices from all Major Providers"
+            ],
+            "image": "/images/home-content/app.png",
+            "link": "Know more",
+            "url": "/marketplace/",
+            "id": "marketplace",
+            "counter": "1"
+        },
+        {
+            "heading": "NFT",
+            "eyebrow": "Non-fungible Token",
+            "desc": "text",
+            "nftContent": [
+                "Linework, through its Progressive Web App (PWA), has provided a consolidated marketplace, effectively collecting and bringing together several platforms (Including Open Sea, the world's largest NFT marketplace), along with an intuitive social network platform, which is aimed at supporting the rise of a community built around Digital Art.",
+                "Linework Progressive Web App can be seen as an integrated digital gallery that gives you the opportunity to create (mint), sell, purchase, bid on, transact, showcase and trade digital blockchain collectibles, which are represented as NFT."
+            ],
+            "image": "/images/home-content/nft.png",
+            "link": "Discover",
+            "url": "/nft/",
+            "id": "nft",
+            "counter": "2"
+        },
+        {
+            "heading": "LWC",
+            "eyebrow": "Linework Coin",
+            "desc": "Despite the name, the Linework Coin is a token : the latter is a set of digital information within a blockchain, which gives rights to a specific subject. The Linework Coin is an ERC-20 protocol based token, and is therefore positioned as a payment token to be used for every transaction on the Progressive Web App. Linework Corporation has done all the compliance procedures according to Etherscan to be certified on the blockchain.",
+            "image": "/images/home-content/lwc.png",
+            "link": "Know more",
+            "url": "/lwc/",
+            "id": "lwc",
+            "counter": "3"
+        },
+        {
+            "heading": "STO",
+            "eyebrow": "Security Token Offering",
+            "desc": "A Security Token Offering (STO) is a digital token supported by blockchain technology that represents a stake in an asset. For stocks, ownership information is entered into a document as an official certificate of ownership. For security tokens, similar information is recorded, the major difference being that it is recorded on the blockchain and represented by a token.",
+            "image": "/images/home-content/sto.png",
+            "link": "Know more",
+            "url": "/sto/",
+            "id": "sto",
+            "counter": "4"
+        },
+        {
+            "heading": "Linework Coin (LWC) Primary Listing",
+            "eyebrow": "News",
+            "desc": "The Linework Coin (LWC) is currently listed on Bitmart and Bittrex.",
+            "image": "/images/home-content/blog.png",
+            "link": "Read more",
+            "url": "https://blog.linework.online/",
+            "id": "news",
+            "counter": "5"
+        }
+    ]
+}

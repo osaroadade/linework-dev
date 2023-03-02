@@ -19,3 +19,24 @@ document.addEventListener("click", (e) => {
     menuElem.classList.add("d-none")
     navElem.blur()
 })
+
+//Scroll to top
+const scrollToTopBtn = document.querySelector(".scroll-to-top")
+
+scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo(0, 0)
+})
+
+const threshold = 1000
+
+function showScrollToTopBtn() {
+    if (window.scrollY > threshold) {
+        scrollToTopBtn.classList.add("visible")
+        return
+    }
+    scrollToTopBtn.classList.remove("visible")
+}
+
+window.addEventListener("scroll", showScrollToTopBtn)
+window.addEventListener("load", showScrollToTopBtn)
+window.addEventListener("resize", showScrollToTopBtn)

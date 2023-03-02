@@ -1,0 +1,9 @@
+<nav class="side-nav p-fixed" aria-label="Side Navigation">
+    <ul class="d-grid">
+        {% for link in sideNav.links %}
+            <li>
+                <a href="{{ link.url }}" class="d-flex sidenav-button" data-counter="{{ link.counter }}">{{ link.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
