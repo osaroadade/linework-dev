@@ -16,13 +16,11 @@ if (mediaQurey.matches) {
     videoSrc.removeAttribute("src")
     videoSrc.setAttribute("src", PORTRAIT_VIDEO)
     videoElement.load()
-    videoElement.play()
 } else {
     videoElement.pause()
     videoSrc.removeAttribute("src")
     videoSrc.setAttribute("src", LANDSCAPE_VIDEO)
     videoElement.load()
-    videoElement.play()
 }
 
 window.addEventListener("resize", () => {
@@ -32,12 +30,10 @@ window.addEventListener("resize", () => {
         videoElement.pause()
         videoSrc.src = PORTRAIT_VIDEO
         videoElement.load()
-        videoElement.play()
     } else {
         videoElement.pause()
         videoSrc.src = LANDSCAPE_VIDEO
         videoElement.load()
-        videoElement.play()
     }
 })
 
@@ -48,7 +44,7 @@ const thresholdY = 500
 const thresholdX = 1024
 
 function showSideNav() {
-    if (window.scrollY > thresholdY) {
+    if (window.scrollY > thresholdY && !(window.innerWidth < thresholdX)) {
         sideNav.classList.add("visible")
         return
     }

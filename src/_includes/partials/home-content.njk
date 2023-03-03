@@ -19,6 +19,18 @@
                     {% for contentItem in content.nftContent %}
                         <p>{{ contentItem }}</p>
                     {% endfor %}
+                {% elif content.blogPost %}
+                    <div class="blog d-grid">
+                        {% for post in blogposts %}
+                            <div class="blog-content d-grid">
+                                <h3 class="h5">
+                                    <a href="{{ post.link }}" target="_blank">{{ post.title.rendered }}</a>
+                                </h3>
+                                {{ post.excerpt.rendered | safe }}
+                                <a href="{{ post.link }}" target="_blank">Read Post</a>
+                            </div>
+                        {% endfor %}
+                    </div>
                 {% else %}
                     <p>{{ content.desc }}</p>
                 {% endif %}

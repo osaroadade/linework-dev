@@ -3,15 +3,16 @@
         <div class="nav-group d-flex p-relative">
             <div class="nav-title d-flex">
                 <a href="/" class="logo">
-                    <img class="logo-wordmark" src="/images/logo-wordmark.png" alt="Image of Linework's logo and work mark, featuring the word 'Linework' in bold capital letters with the the company
-                            motto 'Join our freedom' written directly below it. The entire image is colored white on a transparent background.">
-                    <img class="logo d-none" src="/images/logo.png" alt="Image of Linework's logo. The entire image is colored white on a transparent background.">
+                    <img class="logo-wordmark" src="/images/logo-wordmark.png" alt="Image of Linework's logo and wordmark.">
                 </a>
-                <button class="nav-button mobile" type="button">
-                    <i class="fa fa-close"></i>
-                </button>
+                {# <button class="button-01 mobile" type="button">
+                    <i class="fas fa-times"></i>
+                </button> #}
             </div>
-            <nav class="nav-links" aria-label="Primary">
+            <button class="button-01 mobile" type="button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links desktop" aria-label="Primary">
                 <ul class="d-flex">
                     {% for item in nav.items %}
                         <li class="nav-link{% if item.special %} desktop{% endif %}">
@@ -35,9 +36,6 @@
                     {% endfor %}
                 </ul>
             </nav>
-            <button class="nav-button mobile" type="button">
-                <i class="fa fa-bars"></i>
-            </button>
         </div>
     </div>
 </header>
